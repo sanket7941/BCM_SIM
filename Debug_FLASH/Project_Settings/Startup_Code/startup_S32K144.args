@@ -5,8 +5,8 @@
 -I../SDK/middleware/lin/transport
 -I../SDK/platform/drivers/inc
 -I../SDK/platform/drivers/src/lpuart
--I"C:/Users/sanke/workspaceS32DS.3.5/lin_master_s32k144/src"
--I"C:/Users/sanke/workspaceS32DS.3.5/lin_master_s32k144/board"
+-I"C:/Users/sanke/workspaceS32DS.3.5/BCM_Simulator/src"
+-I"C:/Users/sanke/workspaceS32DS.3.5/BCM_Simulator/board"
 -I"C:/NXP/S32DS.3.5/S32DS/software/S32SDK_S32K1XX_RTM_4.0.1/platform/devices/S32K144/include"
 -I"C:/NXP/S32DS.3.5/S32DS/software/S32SDK_S32K1XX_RTM_4.0.1/platform/devices/S32K144"
 -I"C:/NXP/S32DS.3.5/S32DS/software/S32SDK_S32K1XX_RTM_4.0.1/platform/devices/common"

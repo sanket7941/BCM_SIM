@@ -3,7 +3,7 @@ SDK/middleware/lin/diagnostic/lin_diagnostic_service.o: \
  C:/NXP/S32DS.3.5/S32DS/software/S32SDK_S32K1XX_RTM_4.0.1/middleware/lin/include/lin_commontl_api.h \
  C:/NXP/S32DS.3.5/S32DS/software/S32SDK_S32K1XX_RTM_4.0.1/middleware/lin/include/lin.h \
  C:/NXP/S32DS.3.5/S32DS/software/S32SDK_S32K1XX_RTM_4.0.1/middleware/lin/include/lin_types.h \
- C:/Users/sanke/workspaceS32DS.3.5/lin_master_s32k144/board/lin_cfg.h \
+ C:/Users/sanke/workspaceS32DS.3.5/BCM_Simulator/board/lin_cfg.h \
  C:/NXP/S32DS.3.5/S32DS/software/S32SDK_S32K1XX_RTM_4.0.1/platform/drivers/inc/lin_driver.h \
  C:/NXP/S32DS.3.5/S32DS/software/S32SDK_S32K1XX_RTM_4.0.1/platform/devices/status.h \
  C:/NXP/S32DS.3.5/S32DS/software/S32SDK_S32K1XX_RTM_4.0.1/platform/drivers/inc/interrupt_manager.h \
@@ -13,7 +13,7 @@ SDK/middleware/lin/diagnostic/lin_diagnostic_service.o: \
  C:/NXP/S32DS.3.5/S32DS/software/S32SDK_S32K1XX_RTM_4.0.1/platform/devices/S32K144/include/S32K144_features.h \
  C:/NXP/S32DS.3.5/S32DS/software/S32SDK_S32K1XX_RTM_4.0.1/platform/devices/devassert.h \
  C:/NXP/S32DS.3.5/S32DS/software/S32SDK_S32K1XX_RTM_4.0.1/rtos/osif/osif.h \
- C:/Users/sanke/workspaceS32DS.3.5/lin_master_s32k144/board/peripherals_LPUART_2.h \
+ C:/Users/sanke/workspaceS32DS.3.5/BCM_Simulator/board/peripherals_LPUART_2.h \
  C:/NXP/S32DS.3.5/S32DS/software/S32SDK_S32K1XX_RTM_4.0.1/middleware/lin/include/lin_common_api.h \
  C:/NXP/S32DS.3.5/S32DS/software/S32SDK_S32K1XX_RTM_4.0.1/middleware/lin/include/lin_diagnostic_service.h
 
@@ -23,7 +23,7 @@ C:/NXP/S32DS.3.5/S32DS/software/S32SDK_S32K1XX_RTM_4.0.1/middleware/lin/include/
 
 C:/NXP/S32DS.3.5/S32DS/software/S32SDK_S32K1XX_RTM_4.0.1/middleware/lin/include/lin_types.h:
 
-C:/Users/sanke/workspaceS32DS.3.5/lin_master_s32k144/board/lin_cfg.h:
+C:/Users/sanke/workspaceS32DS.3.5/BCM_Simulator/board/lin_cfg.h:
 
 C:/NXP/S32DS.3.5/S32DS/software/S32SDK_S32K1XX_RTM_4.0.1/platform/drivers/inc/lin_driver.h:
 
@@ -43,7 +43,7 @@ C:/NXP/S32DS.3.5/S32DS/software/S32SDK_S32K1XX_RTM_4.0.1/platform/devices/devass
 
 C:/NXP/S32DS.3.5/S32DS/software/S32SDK_S32K1XX_RTM_4.0.1/rtos/osif/osif.h:
 
-C:/Users/sanke/workspaceS32DS.3.5/lin_master_s32k144/board/peripherals_LPUART_2.h:
+C:/Users/sanke/workspaceS32DS.3.5/BCM_Simulator/board/peripherals_LPUART_2.h:
 
 C:/NXP/S32DS.3.5/S32DS/software/S32SDK_S32K1XX_RTM_4.0.1/middleware/lin/include/lin_common_api.h:
 

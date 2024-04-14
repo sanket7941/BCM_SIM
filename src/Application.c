@@ -9,16 +9,23 @@
 /******** Header files ********************/
 #include "Application.h"
 
-/********************  varibale ********************************/
+/********************  Variable ********************************/
 static uint8_t Motor1_temp;
-/******************** function declartion *********************/
+/******************** function declaration *********************/
 
 void TestCase1(void);
 
-void TestCase2(void);
+void TestCase2(uint16 cycle);
 
-/******************** function defination *********************/
+void TestCase3(uint16 cycle);
 
+/******************** function definition *********************/
+
+/*
+ * brief: this function will check the temperature of motor
+ *  if the temperature is high it will stop the motor
+ *
+ */
 void TestCase1(void)
 {
 //	uint8_t Motor1_temp;
@@ -73,5 +80,28 @@ void TestCase1(void)
 		PINS_DRV_WritePin(LED_GPIO_PORT, PORT_LED0_INDEX, 1U);
 		PINS_DRV_WritePin(LED_GPIO_PORT, PORT_LED2_INDEX, 1U);
 	}
+
+}
+
+
+/*
+ * brief: this function will test the functionality of track motor
+ * it will move seat in forward and reverse direction for the X amount of time
+ *
+ */
+void TestCase2(uint16 cycle)
+{
+	uint16 x;
+
+}
+
+/*
+ * brief: this function will test the functionality of  motor
+ * it will move seat in forward and reverse direction for the X amount of time
+ *
+ */
+void TestCase3(uint16 cycle)
+{
+	uint16 x;
 
 }

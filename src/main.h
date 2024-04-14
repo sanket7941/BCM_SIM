@@ -18,7 +18,8 @@
 #include "peripherals_LPTMR_0.h"
 #include "peripherals_LPUART_2.h"
 #include "peripherals_linstack_config.h"
-//#include "Application.h"
+#include "Application.h"
+#include "Types.h"
 
 /* local macro */
 

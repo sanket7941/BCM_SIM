@@ -10,6 +10,7 @@
 
 /******** Header files ********************/
 #include "main.h"
+#include "Types.h"
 
 /******** static var  ********************/
 

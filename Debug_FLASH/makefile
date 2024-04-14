@@ -39,23 +39,23 @@ endif
 
 # Add inputs and outputs from these tool invocations to the build variables 
 SECONDARY_SIZE += \
-lin_master_s32k144.siz \
+BCM_Simulator.siz \
 
 
 # All Target
-all: lin_master_s32k144.elf secondary-outputs
+all: BCM_Simulator.elf secondary-outputs
 
 # Tool invocations
-lin_master_s32k144.elf: $(OBJS) C:\NXP\S32DS.3.5\S32DS\software\S32SDK_S32K1XX_RTM_4.0.1\platform\devices\S32K144\linker\gcc\S32K144_64_flash.ld $(USER_OBJS)
+BCM_Simulator.elf: $(OBJS) C:\NXP\S32DS.3.5\S32DS\software\S32SDK_S32K1XX_RTM_4.0.1\platform\devices\S32K144\linker\gcc\S32K144_64_flash.ld $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: Standard S32DS C Linker'
-	arm-none-eabi-gcc -o "lin_master_s32k144.elf" "@lin_master_s32k144.args"  $(USER_OBJS) $(LIBS)
+	arm-none-eabi-gcc -o "BCM_Simulator.elf" "@BCM_Simulator.args"  $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 
-lin_master_s32k144.siz: lin_master_s32k144.elf
+BCM_Simulator.siz: BCM_Simulator.elf
 	@echo 'Invoking: Standard S32DS Print Size'
-	arm-none-eabi-size --format=berkeley lin_master_s32k144.elf
+	arm-none-eabi-size --format=berkeley BCM_Simulator.elf
 	@echo 'Finished building: $@'
 	@echo ' '
 
